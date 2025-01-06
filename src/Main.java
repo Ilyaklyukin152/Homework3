@@ -2,11 +2,10 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("\nЗадача 1");
-        int age = 25;
+        int age = 13;
         if (age >= 18) {
             System.out.printf("Если человеку %s лет, то он совершеннолетний\n", age);
-        }
-        if (age < 18) {
+        } else {
             System.out.printf("Если человеку %s лет, то он не достиг совершеннолетия, " +
                     "нужно немного подождать\n", age);
         }
@@ -15,8 +14,7 @@ public class Main {
         int temp = -5;
         if (temp < 5) {
             System.out.println("На улице холодно, нужно надеть шапку");
-        }
-        if (temp >= 5) {
+        } else {
             System.out.println("Сегодня тепло, можно идти без шапки");
         }
 
@@ -24,14 +22,13 @@ public class Main {
         int speed = 120;
         if (speed > 60) {
             System.out.printf("Если скорость %s, то придется заплатить штраф\n", speed);
-        }
-        if (speed <= 60) {
+        } else {
             System.out.printf("Если скорость %s, то можно ездить спокойно\n", speed);
         }
 
         System.out.println("\nЗадача 4");
         int age2 = 15;
-        if (age2 >= 2 && age2 <= 7) {
+        if (age2 >= 2 && age2 <= 6) {
             System.out.printf("Если человеку %s лет, то ему нужно ходить в детский сад\n", age2);
         }
         if (age2 >= 7 && age2 <= 17) {
